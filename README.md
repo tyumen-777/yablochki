@@ -3,6 +3,8 @@
 ## Описание:
 "Yablochki" - это интернет магазин яблочной продукции.
 
+Самостоятельно разработанный макет: [Figma](https://www.figma.com/file/GcxJVIC25R1hEBxz0aEfFA/Yablochki?node-id=1%3A2)
+
 ## Технологии:
 * Next.JS
 * Tailwind
