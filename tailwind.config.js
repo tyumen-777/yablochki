@@ -8,7 +8,27 @@ module.exports = {
     "./src/screens/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    colors: {
+      'primary' : '#6667AB',
+      'white' : '#FFFFFF'
+    },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    styled: true,
+    themes: [{
+      mytheme: {
+        primary: '#6667AB',
+        secondary: '#333333'
+      }
+    }],
+    base: false
+  }
 }
