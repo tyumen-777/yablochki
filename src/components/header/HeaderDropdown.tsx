@@ -7,7 +7,7 @@ export const HeaderDropdown:FC<IHeaderDropdown> = (props) => {
 
  //Renders
  return (
-   <div className='dropdown'>
+   <div className='dropdown dropdown-hover'>
      <label tabIndex={0} className='text-white text-xl flex gap-2'>iPhone
        <Image src='/assets/icons/down.svg' width={12} height={12} alt='down arrow' />
      </label>
