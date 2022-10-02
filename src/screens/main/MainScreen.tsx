@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { MainSlider } from './MainSlider';
 
 interface IMain {}
 
@@ -6,11 +7,8 @@ export const MainScreen:FC<IMain> = (props) => {
 
  //Renders
  return (
-   <div>
-
-     <h1 className='text-3xl'>
-       Hello World
-     </h1>
+   <div className='max-w-3xl mx-auto flex flex-col'>
+     <MainSlider/>
    </div>
 
  );

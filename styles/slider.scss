@@ -1,0 +1,9 @@
+.slider {
+  & .slick-prev:before, .slick-next:before {
+    color: black;
+  }
+
+  & .slick-prev:before {
+    //content: url("/assets/icons/down.svg");
+  }
+}
