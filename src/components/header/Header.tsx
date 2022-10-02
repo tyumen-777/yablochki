@@ -12,8 +12,8 @@ export const Header: FC<IHeader> = (props) => {
 
   //Renders
   return (
-    <header className='bg-primary flex pt-6 flex-col'>
-      <div className='mx-auto container flex items-center max-w-7xl pb-6'>
+    <header className='bg-black flex pt-2 flex-col'>
+      <div className='mx-auto container flex items-center max-w-7xl pb-2 justify-between'>
         <div className='flex text-white text-xl max-w-3xl justify-between w-full'>
           <Link href='/'>
             Главная
@@ -34,14 +34,16 @@ export const Header: FC<IHeader> = (props) => {
             Контакты
           </Link>
         </div>
-        <div className='ml-20 mr-20'>
-          <HeaderSearch />
+        <div>
+          <a href='tel:83452123456' className='text-white text-xl mr-6'>+7(3452)123-456</a>
+          <HeaderCity />
         </div>
-        <HeaderCity />
+
       </div>
-      <div className='bg-secondary py-3 flex'>
-        <div className='max-w-7xl container mx-auto flex justify-between'>
+      <div className='bg-white py-3 flex'>
+        <div className='max-w-7xl container mx-auto flex justify-between items-center'>
           <div className='flex gap-20'>
+            <p>@LOGO</p>
             <HeaderDropdown/>
             <HeaderDropdown/>
             <HeaderDropdown/>
@@ -49,8 +51,7 @@ export const Header: FC<IHeader> = (props) => {
             <HeaderDropdown/>
             <HeaderDropdown/>
           </div>
-
-          <a href='tel:83452123456' className='text-xl text-white'>+7(3452)123-456</a>
+          <HeaderSearch/>
         </div>
       </div>
     </header>
