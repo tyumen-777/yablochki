@@ -18,9 +18,9 @@ export const MainSlider: FC<IMainSlider> = (props) => {
 
   //Renders
   return (
-    <div>
-     <Slider {...sliderSetting} className='slider'>
-      <Image src='/assets/images/iPhone.png' width={1200} height={600} alt='main slider' />
+    <div className='slider'>
+     <Slider {...sliderSetting} >
+      <Image src='/assets/images/iPhone.png' width={1200} height={600} alt='main slider' className='rounded-md'/>
       <Image src='/assets/images/iPhone.png' width={1200} height={600} alt='main slider' />
      </Slider>
     </div>

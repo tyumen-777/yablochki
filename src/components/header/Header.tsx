@@ -40,7 +40,7 @@ export const Header: FC<IHeader> = (props) => {
         </div>
 
       </div>
-      <div className='bg-white py-3 flex'>
+      <div className='bg-background py-3 flex'>
         <div className='max-w-7xl container mx-auto flex justify-between items-center'>
           <div className='flex gap-20'>
             <p>@LOGO</p>
