@@ -15,8 +15,8 @@ export const MainHits: FC<IMainHits> = (props) => {
 
   //Renders
   return (
-    <div className='flex flex-col mb-20 slider'>
-      <h2 className='text-2xl mb-4'>Хиты продаж</h2>
+    <div className='flex flex-col mb-20 slider max-w-5xl'>
+      <h2 className='text-3xl mb-4'>Хиты продаж</h2>
       <Slider {...sliderSetting}>
         <ProductCard/>
         <ProductCard/>

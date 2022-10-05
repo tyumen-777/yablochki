@@ -8,7 +8,7 @@ export const MainCategories: FC<IMainCategories> = (props) => {
 
   //Renders
   return (
-    <div className='grid grid-rows-2 grid-cols-4 gap-4 my-10'>
+    <div className='grid grid-rows-2 grid-cols-4 gap-10 my-10 max-w-5xl'>
       <CategoryCard />
       <CategoryCard />
       <CategoryCard />
