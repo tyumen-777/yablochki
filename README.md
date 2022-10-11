@@ -13,12 +13,11 @@
 
 First, run the development server:
 
-Для начала запустите сервер:
+Для запуска проекта:
 
 ```bash
-npm run dev
-# or
-yarn dev
+1) yarn install
+2) yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
