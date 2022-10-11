@@ -18,7 +18,9 @@ module.exports = {
       'primary' : '#6667AB',
       'white' : '#FFFFFF',
       'black' : 'rgba(52, 52, 52, 1)',
-      'background' : 'rgba(245, 245, 247, 1)'
+      'footer' : 'rgba(0, 0, 0, 0.96)',
+      'background' : 'rgba(245, 245, 247, 1)',
+      'grey' : 'rgba(255, 255, 255, 0.6)'
     },
     extend: {},
   },
