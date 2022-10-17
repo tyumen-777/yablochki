@@ -4,6 +4,8 @@ import { HeaderSearch } from './HeaderSearch';
 import { HeaderCity } from './HeaderCity';
 import Image from 'next/image';
 import { HeaderDropdown } from './HeaderDropdown';
+import { routes } from '../../config/routes';
+import { QLink } from '../ui/QLink';
 
 interface IHeader {
 }
@@ -18,9 +20,9 @@ export const Header: FC<IHeader> = (props) => {
           <Link href='/'>
             Главная
           </Link>
-          <Link href='/'>
+          <QLink href={routes.catalog}>
             Каталог
-          </Link>
+          </QLink>
           <Link href='/'>
             Гарантия
           </Link>

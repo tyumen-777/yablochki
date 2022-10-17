@@ -7,3 +7,10 @@
 html {
     background-color: rgba(245, 245, 247, 1);
 }
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}

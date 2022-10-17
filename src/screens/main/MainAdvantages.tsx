@@ -9,7 +9,7 @@ export const MainAdvantages: FC<IMainAdvantages> = (props) => {
   //Renders
   return (
     <div className='bg-white w-full'>
-      <div className='max-w-5xl container mx-auto flex flex-col py-20'>
+      <div className='max-w-5xl container mx-auto flex flex-col py-20 px-10'>
         <p className='text-3xl mb-20'>Наши преимущества</p>
         <div className='flex gap-6'>
           <div className='flex flex-col gap-4 w-72 items-start'>

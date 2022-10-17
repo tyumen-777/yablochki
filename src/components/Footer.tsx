@@ -1,6 +1,8 @@
 import React, { FC } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { routes } from '../config/routes';
+import { QLink } from './ui/QLink';
 
 interface IFooter {
 }
@@ -26,8 +28,8 @@ export const Footer: FC<IFooter> = (props) => {
         </div>
         <div className='flex w-2/3 gap-24'>
           <div className='flex flex-col gap-8'>
-            <Link href='/'>Главная</Link>
-            <Link href='/'>Каталог</Link>
+            <QLink href={routes.main}>Главная</QLink>
+            <QLink href={routes.catalog}>Каталог</QLink>
             <Link href='/'>Акции</Link>
           </div>
           <div className='flex flex-col gap-8'>
