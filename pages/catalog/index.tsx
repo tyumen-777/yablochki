@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import { SEO } from '../src/components/SEO';
-import { CatalogScreen } from '../src/screens/catalog/CatalogScreen';
+import { SEO } from '../../src/components/SEO';
+import { CatalogScreen } from '../../src/screens/catalog/CatalogScreen';
 
 interface ICatalog {
 }
