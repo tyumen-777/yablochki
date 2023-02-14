@@ -10,7 +10,7 @@ const BaseLayout = ({ children }: BaseLayoutProps) => {
     return (
         <>
         <Header/>
-        <main>{children}</main>
+        <main className='relative'>{children}</main>
         <Footer/>
         </>
     )
