@@ -9,9 +9,9 @@ interface BaseLayoutProps {
 const BaseLayout = ({ children }: BaseLayoutProps) => {
     return (
         <>
-        <Header/>
-        <main className='relative'>{children}</main>
-        <Footer/>
+            <Header />
+            <main className='relative mx-auto w-full container'>{children}</main>
+            <Footer />
         </>
     )
 }
