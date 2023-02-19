@@ -19,7 +19,24 @@ body {
 * {
     font-family: 'Roboto', sans-serif;
 }
+
 main {
     display: flex;
     flex-direction: column;
+}
+
+.slick-next:before {
+    display: none;
+}
+
+.slick-next {
+    right: 75px !important;
+}
+
+.slick-prev {
+    left: 75px !important
+}
+
+.slick-prev:before {
+    display: none;
 }

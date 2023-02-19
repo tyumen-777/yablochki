@@ -3,7 +3,7 @@ import React from 'react'
 
 const TopMenu = () => {
     return (
-        <div className='flex justify-between text-black text-lg pt-6'>
+        <div className='flex justify-between text-black text-lg pt-6 mb-16'>
             <div className='flex gap-9'>
                 <Link href='/'>iPhone</Link>
                 <Link href='/'>iPad</Link>
