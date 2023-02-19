@@ -31,10 +31,12 @@ main {
 
 .slick-next {
     right: 75px !important;
+    z-index: 4;
 }
 
 .slick-prev {
-    left: 75px !important
+    left: 75px !important;
+    z-index: 4;
 }
 
 .slick-prev:before {
