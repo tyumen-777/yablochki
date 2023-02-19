@@ -6,6 +6,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/screens/**/*.{js,ts,jsx,tsx}",
     "./src/screens/**/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite-react/**/*.js",
     // Or if using `src` directory:
     // "./src/**/*.{js,ts,jsx,tsx}",
   ],
@@ -13,8 +14,11 @@ module.exports = {
     extend: {},
     colors: {
       black : '#343434',
-      white: '#FFFFFF'
+      white: '#FFFFFF',
+      grey: 'rgba(0, 0, 0, 0.08)'
     }
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }

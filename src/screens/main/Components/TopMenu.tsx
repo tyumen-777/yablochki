@@ -1,5 +1,6 @@
+import { SearchIcon } from '@/public/Icons'
+import { TextInput } from 'flowbite-react'
 import Link from 'next/link'
-import React from 'react'
 
 const TopMenu = () => {
     return (
@@ -13,7 +14,12 @@ const TopMenu = () => {
                 <Link href='/'>Аксессуары</Link>
             </div>
             <div>
-                Поиск
+                <TextInput 
+                icon={SearchIcon} 
+                placeholder='Поиск' 
+                color='transparent'
+                style={{border: 0, fontSize: 18}}
+                />
             </div>
         </div>
     )
