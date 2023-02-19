@@ -22,11 +22,11 @@ const MainSlider = () => {
     const settings: Settings = {
         dots: true,
         infinite: true,
-        // autoplay: true,
+        autoplay: true,
         cssEase: "linear",
         autoplaySpeed: 5000,
         prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />
+        nextArrow: <NextArrow />,
     }
     return (
         <Slider {...settings}>
